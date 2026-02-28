@@ -1,0 +1,403 @@
+
+body {
+  background: linear-gradient(135deg, #0d0015 0%, #2e004f 50%, #1a0030 100%);
+  min-height: 100vh;
+  font-family: 'Poppins', monospace;
+  color: var(--white-color);
+  
+}
+
+:root {
+  --purple-color: #be50f4; /* Purple text color */
+  --white-color: #ffffff; /* White text color */
+}
+.logo {
+width: 60px;
+}
+
+.span-purple {
+  color: var(--purple-color);
+}
+
+.image-main {
+  width: 350px;
+}
+
+.img-skilset {
+  width: 30px;
+}
+.img-project {
+  width: 50px;
+}
+
+.link-bottom {
+  width: 40px;
+  height: 40px;
+  
+}
+
+.link {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 20px;
+}
+
+.div-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 8em;
+}
+
+.left-side-main {
+max-width: 600px;
+width: 90%;
+}
+
+.h2-greedings {
+  font-size: 55px;
+}
+
+.h2-name {
+  font-size: 40px;
+}
+.p-category {
+  font-size: 30px;
+  color: var(--purple-color);
+}
+
+.section-about {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
+.div-text-about {
+  max-width: 700px;
+}
+.h2-introduce-about {
+  text-align: start;
+  font-size: 40px;
+}
+
+.p-introduce {
+  width: 90%;
+  text-align: start;
+  font-size: 20px;
+}
+
+.avatar {
+  width: 270px;
+}
+
+.bottom-part {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.div-links-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.div-skillset {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.h2-skillset {
+font-size: 30px;
+margin-top: 2em;
+text-align: center;
+}
+
+.img-skilset {
+width: 30px;
+height: 30px;
+}
+
+.skillset {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--purple-color);
+  padding: 0.7em 2em;
+
+ align-items: center;
+}
+
+.skillset-name {
+  font-size: 20px;
+  
+}
+
+.div-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 3em;
+}
+
+.title-projects {
+  text-align: center;
+}
+
+.p-projects {
+  text-align: center;
+}
+
+.img-about {
+  width: 500px;
+}
+.div-cards {
+
+}
+
+.card {
+width: 25rem;
+background-color: transparent;
+color: var(--white-color);
+border: 1px solid var(--white-color);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text {
+  background-color:transparent;
+  color: var(--white-color);
+}
+
+.card-link {
+  color: var(--white-color);
+  background-color: var(--purple-color);
+  padding: 0.6em 1em;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.small-navbar {
+  display: none;
+}
+
+/* Laptops / tablets maiores */
+@media screen and (max-width: 1124px) {
+  .div-main {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .left-side-main {
+    justify-content: center;
+    max-width: 1000px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 8em;
+  }
+  
+
+  .right-side-main {
+    justify-content: center;
+    display: flex;
+  }
+
+  .h2-greedings {
+    font-size: 40px;
+  }
+
+  .h2-name {
+    font-size: 40px;
+  }
+
+  .image-main {
+    width: 550px;
+  }
+
+  .section-about {
+    display: block;
+    
+  }
+
+  .div-text-about {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+
+  .h2-introduce-about {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 2em;
+  }
+
+  .p-introduce {
+    text-align:center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .div-avatar {
+    text-align: center;
+    margin-top: 5em;
+  }
+
+  .div-skillset {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .skillset {
+    margin: 1em;
+  
+  }
+
+.small-navbar {
+  display: flex;
+} 
+
+.header-nav {
+  display: none;
+}  
+
+.title-projects {
+  margin-top: 5em;
+}
+
+.div-cards {
+  flex-direction: column;
+}
+
+.card {
+  width: 90%;
+  margin: 0 auto;
+}
+}
+
+
+/* Celulares / telas pequenas */
+@media screen and (max-width: 800px) {
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* --- SEÇÃO PRINCIPAL --- */
+  .div-main {
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+    margin: 0 auto;
+  }
+
+  .left-side-main {
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  .right-side-main {
+    max-width: 500px;
+     margin: 0 auto;
+  }
+
+  .h2-greedings {
+    font-size: 35px;
+  }
+
+  .h2-name {
+    font-size: 32px;
+  }
+
+  .p-category {
+    font-size: 24px;
+  }
+
+  .image-main {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* --- ABOUT SECTION --- */
+  .section-about {
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+    margin-top: 4em;
+  }
+
+  .div-text-about {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .h2-introduce-about {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .p-introduce {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .avatar {
+    width: 200px;
+    display: block;
+    margin: 2em auto 0 auto;
+  }
+
+  /* --- SKILLSET --- */
+  .div-skillset {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 3em;
+  }
+
+  .skillset {
+    width: 80%;
+    margin: 0.5em auto;
+  }
+
+  /* --- CARDS --- */
+  .div-cards {
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 3em;
+  }
+
+  .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* --- BOTTOM LINKS --- */
+  .div-links-bottom {
+    gap: 1em;
+  }
+
+  .small-navbar {
+  display: flex;
+} 
+
+.header-nav {
+  display: none;
+}
+
+}
