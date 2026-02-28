@@ -37,7 +37,8 @@ width: 60px;
 }
 
 .footer-text { 
-  margin:1em; }
+  margin-top: 3em;
+}
 
 .link {
   text-decoration: none;
