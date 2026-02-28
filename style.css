@@ -36,6 +36,9 @@ width: 60px;
   margin:2em;
 }
 
+.footer-text { 
+  margin:1em; }
+
 .link {
   text-decoration: none;
   color: var(--white-color);
