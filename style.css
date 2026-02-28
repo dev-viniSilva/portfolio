@@ -153,9 +153,7 @@ height: 30px;
 .img-about {
   width: 500px;
 }
-.div-cards {
 
-}
 
 .card {
 width: 25rem;
@@ -186,7 +184,6 @@ border: 1px solid var(--white-color);
   display: none;
 }
 
-/* Laptops / tablets maiores */
 @media screen and (max-width: 1124px) {
   .div-main {
     display: block;
@@ -284,7 +281,7 @@ border: 1px solid var(--white-color);
 }
 
 
-/* Celulares / telas pequenas */
+
 @media screen and (max-width: 800px) {
 
   body {
@@ -293,7 +290,6 @@ border: 1px solid var(--white-color);
     padding: 0;
   }
 
-  /* --- SEÇÃO PRINCIPAL --- */
   .div-main {
     flex-direction: column;
     text-align: center;
@@ -329,7 +325,6 @@ border: 1px solid var(--white-color);
     margin: 0 auto;
   }
 
-  /* --- ABOUT SECTION --- */
   .section-about {
     flex-direction: column;
     text-align: center;
@@ -362,7 +357,6 @@ border: 1px solid var(--white-color);
     margin: 2em auto 0 auto;
   }
 
-  /* --- SKILLSET --- */
   .div-skillset {
     flex-direction: column;
     width: 100%;
@@ -375,7 +369,6 @@ border: 1px solid var(--white-color);
     margin: 0.5em auto;
   }
 
-  /* --- CARDS --- */
   .div-cards {
     flex-direction: column;
     gap: 2em;
@@ -387,7 +380,6 @@ border: 1px solid var(--white-color);
     margin: 0 auto;
   }
 
-  /* --- BOTTOM LINKS --- */
   .div-links-bottom {
     gap: 1em;
   }
